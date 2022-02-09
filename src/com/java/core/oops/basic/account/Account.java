@@ -8,7 +8,7 @@ public class Account {
 	private String phonenumber;
 
 	public Account() {
-		System.out.println("empty construtor");
+		System.out.println("default construtor");
 	}
 
 	public Account(String number, double balance, String customername, String customeremail, String phonenumber) {
