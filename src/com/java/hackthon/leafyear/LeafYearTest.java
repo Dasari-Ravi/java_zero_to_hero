@@ -22,6 +22,7 @@ public class LeafYearTest {
 //				System.out.println("no letter range");
 //					
 //				break;
+		scanner.close();
 //			}
 
 	}

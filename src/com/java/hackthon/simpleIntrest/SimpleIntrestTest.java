@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class SimpleIntrestTest {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-/// nbnbnb
+
 		String principalInput = scanner.next();
 		String interestInput = scanner.next();
 		String timeInput = scanner.next();

@@ -5,7 +5,7 @@ public class keywords {
 		// 1km=1000meters
 		int kms = 12 * 1000;// other than datatype everything in the line is an expression
 		System.out.println("the value= " + kms);
-		double kilo = 1000 * 12;
+		//double kilo = 1000 * 12;
 		// if(kilo==12000) {
 		// System.out.println("the expression");//the component within the bracket is an
 		// expression
