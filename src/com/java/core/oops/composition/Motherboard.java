@@ -17,15 +17,19 @@ public class Motherboard {
 		this.bios = bios;
 	}
 	public void Programload(String programName) {
-		System.out.println("program"+programName+"is now loading.....");
+		System.out.println("program "+programName+" is now loading.....");
 	}
 
 
 	public String getModel() {
 		return model;
 	}
+	
 
 
+	//public void setModel(String model) {
+		//this.model = model;
+	//}
 	public String getManufacture() {
 		return manufacture;
 	}

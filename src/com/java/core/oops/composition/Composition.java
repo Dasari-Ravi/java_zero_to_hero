@@ -10,7 +10,9 @@ public class Composition {
 		Motherboard theMotherboard = new Motherboard("BJ-200", "asus", 4, 6, "v2.44");
 
 		PC thePC = new PC(theCase, theMonitor, theMotherboard);
-		thePC.getMonitor().DrawPixel(1500, 12000, "white");
+		thePC.powerup();
+		
+		
 	}
 
 }

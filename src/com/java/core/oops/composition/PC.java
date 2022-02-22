@@ -11,21 +11,19 @@ public class PC {
 		this.monitor = monitor;
 		this.motherboard = motherboard;
 	}
-
-
-	public Case getTheCase() {
-		return theCase;
+	public void powerup() {
+		theCase.pressPowerButton();
+		drawlogo();
+		
+		
 	}
-
-
-	public Monitor getMonitor() {
-		return monitor;
+	public void drawlogo() {
+		monitor.DrawPixel(2140, 5020, "Yellow");
 	}
+	
 
 
-	public Motherboard getMotherboard() {
-		return motherboard;
-	}
+
 	
 	
 	

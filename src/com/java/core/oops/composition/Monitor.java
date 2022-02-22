@@ -13,7 +13,7 @@ public class Monitor {
 		this.nativeResolution = nativeResolution;
 	}
 	public void DrawPixel(int x,int y,String colour) {
-		System.out.println("Drawing pixels at "+x+","+y+" in colour"+colour);
+		System.out.println("Drawing pixels at "+x+","+y+" in colour "+colour);
 	}
 	public String getModel() {
 		return model;
