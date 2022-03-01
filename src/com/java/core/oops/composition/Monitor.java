@@ -7,7 +7,7 @@ public class Monitor {
 	private Resloution nativeResolution;
 	        
 	public Monitor(String model, String manufacturer, int size, Resloution nativeResolution) {
-		super();this.model = model;
+		this.model = model;
 		this.manufacturer = manufacturer;
 		this.size = size;
 		this.nativeResolution = nativeResolution;

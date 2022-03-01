@@ -13,7 +13,7 @@ public class Home {
 
 		Lamp lamp = new Lamp("modern", true, 68);
 
-		Bedroom bedroom = new Bedroom("ravi", wall1, wall2, wall3, wall4, celling, bed, lamp);
+		Bedroom bedroom = new Bedroom("ravi", wall1, wall2, wall3, wall3, celling, bed, lamp);
 		bedroom.makeBed();
 		bedroom.getLamp().turnOn();
 

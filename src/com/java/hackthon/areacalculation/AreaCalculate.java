@@ -23,7 +23,9 @@ public class AreaCalculate {
 
 	}
 
-	public static void switchbreak(int score) {
+	public  void switchbreak(int score) {
+ 
+		
 		score = 13;
 		switch (score = 13) {
 		case 1:

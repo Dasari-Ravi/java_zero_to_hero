@@ -13,6 +13,7 @@ public class Composition {
 		thePC.powerup();
 		
 		
+		
 	}
 
 }

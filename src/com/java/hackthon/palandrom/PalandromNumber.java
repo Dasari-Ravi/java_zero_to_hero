@@ -29,7 +29,7 @@ public class PalandromNumber {
 				}
 			//System.out.println(sum);
 			if (sum==temp) {
-				System.out.println(sum + " is a palindrome ");
+				System.out.println(sum + " is a palindrome.S22omething is fishy");
 			}else
 				
 			{
