@@ -64,6 +64,7 @@ public class Car {
 		System.out.println(car.StartEngine());
 
 		Mitsubshi mitsubshi=new Mitsubshi() {
+			
 		}
 			System.out.println(mitsubshi.StartEngine());
 			System.out.println(mitsubshi.Accelerate());
