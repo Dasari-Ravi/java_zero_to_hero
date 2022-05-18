@@ -3,6 +3,9 @@ package com.java.core.LinkedLists;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
+import java.util.Scanner;
+
+import com.java.core.autoboxing.linkLists;
 
 public class Demo {
 	public static void main(String[] args) {
@@ -15,7 +18,12 @@ public class Demo {
 		addInOrder(placesToVisit, "Chennai");
 		addInOrder(placesToVisit, "trivandrum");
 		addInOrder(placesToVisit, "Delhi");
-		
+
+		addInOrder(placesToVisit, "Amristar");
+
+		addInOrder(placesToVisit, "Hyderabad");
+		visit(placesToVisit);
+
 		printList(placesToVisit);
 //		placesToVisit.add("Hyderabad");
 //		placesToVisit.add("Mumbai");
@@ -60,6 +68,60 @@ public class Demo {
 		}
 		stringListIterator.add(newCity);
 		return true;
+	}
+
+	private static void visit(LinkedList cities) {
+		Scanner scanner = new Scanner(System.in);
+		boolean quit= false;
+		ListIterator<String> listIterator = cities.listIterator();
+
+		if (cities.isEmpty()) {
+			System.out.println("no cities to visit ");
+		} else {
+			System.out.println("now visiting "+listIterator.next());
+			printMenu();
+		}
+		while (!quit) {
+			int action = scanner.nextInt();
+			scanner.nextLine();
+			switch (action) {
+			case 1:
+				System.out.println("Holidays over");
+				quit=true;
+				break;
+			case 2:
+				if(listIterator.hasNext()) {
+					System.out.println(" now visting "+listIterator.next());
+				}else {
+					System.out.println(" Reached the destinatiotn");
+				}
+				break;
+			case 3: if(listIterator.hasPrevious()) {
+				System.out.println("now visiting "+listIterator.hasPrevious());
+				
+			}else {
+				System.out.println("we are starting from intial state");
+			}
+			break;
+			case 4:
+				printMenu();
+				break;
+
+			}
+		}
+
+	}
+	
+		 private static void printMenu() {
+		        System.out.println("Available actions:\npress ");
+		        System.out.println("01- to quit\n" +
+		                "2 - go to next city\n" +
+		                "3 - go to previous city\n" +
+		                "4- print menu options");
+		    
+
+
+
 	}
 
 }
