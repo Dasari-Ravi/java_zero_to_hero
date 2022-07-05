@@ -2,7 +2,7 @@ package com.java.core.oops.Encapsulation.Client;
 
 public class Encapsulation_client {
 	public static void main(String[] args) {
-		//this code can be excuted if we decomment the Encapsulation_palyer class
+		//this code can be excuted if we document the Encapsulation_palyer class
 		/*
 		 * Encapsulation_Player player = new Encapsulation_Player(); player.name="Ravi";
 		 * player.health=34; player.weapon="sword";
